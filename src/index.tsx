@@ -4,7 +4,9 @@ import './index.css';
 
 function Header() {
   return (
-    <h1>Test this works</h1>
+    <div style={{backgroundColor: "#3f4452", padding: "10px"}}>
+      <h1 style ={{color:"white", textAlign: "center"}}>My Favourite Places</h1>
+    </div>
   )
 }
 
