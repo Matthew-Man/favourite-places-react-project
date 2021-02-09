@@ -7,7 +7,7 @@ import './index.css';
 function Header() {
   return (
     <header style={{backgroundColor: "#3f4452", padding: "10px"}}>
-      <h1 style ={{color:"white", textAlign: "center"}}>My Favourite Places</h1>
+      <h1 style ={{color:"white", textAlign: "center"}}>Matt's Favourite Places</h1>
     </header>
   )
 };
