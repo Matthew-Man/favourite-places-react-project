@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PlacesCompiled from './places';
 import './index.css';
 
 
@@ -22,4 +23,5 @@ function Footer() {
 
 
 ReactDOM.render(<Header />, document.getElementById('header'));
+ReactDOM.render(<PlacesCompiled />, document.getElementById('body'))
 ReactDOM.render(<Footer />, document.getElementById('footer'));
