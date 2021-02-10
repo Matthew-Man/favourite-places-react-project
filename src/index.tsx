@@ -20,7 +20,7 @@ function Footer() {
     <footer className="footer" style={{backgroundColor: "#3f4452", padding: "10px"}}>
       <h4 style ={{color:"white", textAlign: "center"}}>Page created by Matt Man, Academy</h4>
       <div className="icon-container">
-        <a href="https://github.com/Matthew-Man" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" className="footer-icon"/></a>
+        <a href="https://github.com/Matthew-Man"><FontAwesomeIcon icon={faGithub} size="2x" className="footer-icon"/></a>
       </div>
     </footer>
   )
