@@ -1,3 +1,7 @@
+# Academy Project - Matt's Favourite Places
+
+This was completed as part of a project for the Academy program. Created page can be found hosted on Netlify and can be accessed through this link: (https://mattsfavplaces.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
