@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+img {
+  width: 75%;
+  height: 250px;
+  object-fit: cover;
+  max-width: 500px;
+}
+
 .location-image {
   display: block;
   margin-left: auto;
@@ -34,5 +41,14 @@ code {
 }
 
 .outer-wrapper {
-  padding: 20px 60px
+  padding: 20px 60px;
+}
+
+.footer-icon {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.icon-container {
+  text-align: center;
 }

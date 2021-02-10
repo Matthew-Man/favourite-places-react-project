@@ -18,7 +18,7 @@ function Place(entry: placesEntries) {
     return (
         <div className="place-card">
             <div className="location-image" style={{textAlign: "center"}}>
-                <img src={image} alt={altText} style={{width: "400px", height: "250px", objectFit: "cover"}}/>
+                <img src={image} alt={altText} className="image"/>
             </div>
             <div className="card-content">
                 <h2>{title}</h2>

@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PlacesCompiled from './places';
 import './index.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 function Header() {
@@ -15,8 +17,11 @@ function Header() {
 
 function Footer() {
   return (
-    <footer style={{backgroundColor: "#3f4452", padding: "10px"}}>
-      <h1 style ={{color:"white", textAlign: "center"}}>Footer Stuff Here</h1>
+    <footer className="footer" style={{backgroundColor: "#3f4452", padding: "10px"}}>
+      <h4 style ={{color:"white", textAlign: "center"}}>Page created by Matt Man, Academy</h4>
+      <div className="icon-container">
+        <a href="https://github.com/Matthew-Man" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" className="footer-icon"/></a>
+      </div>
     </footer>
   )
 }
